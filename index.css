@@ -1,0 +1,330 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,900;1,100&family=Open+Sans:wght@300&family=Poppins:wght@400;500;600;700&family=Quicksand:wght@300;400;700&family=Source+Serif+Pro:ital,wght@0,300;0,400;1,200&display=swap');
+:root{
+--primary-bg:#ffffff;
+--primary-font-color:#000000eb;
+--seconday-font-color: rgb(246, 169, 69);
+--footer-bg:#000000;
+--footer-font-color:#ffffff;
+}
+*{
+margin:0;
+padding:0;
+font-family: 'Quicksand', sans-serif;
+}
+.App{
+  position:relative;
+  text-align:center;
+}
+html {
+  scroll-behavior: smooth;
+}
+/*===============HEADING AREA=========================*/
+.headingArea
+  {
+  display: flex;
+  justify-content: space-between;
+  height:auto;
+  }
+
+ .navmenu{
+    display:none;
+  }
+
+.header{
+  text-align:left;
+  align-self: flex-start;
+  font-weight:400;
+  font-size:40px;
+  /*padding-left:20px;*/
+  display:flex;
+  align-items:center;
+  
+}
+.logo-title {
+  display: flex;
+  align-items: center;
+}
+
+.header img{
+  width:9%;
+  height:auto;
+  align-self: flex-start;
+}
+/*=================================================*/
+
+/*==============INTRODUCTION AREA==================*/
+.intro{
+  height:60vh;
+  /*display: flex;
+  justify-content: center;
+  text-align:center;
+  align-items:center;*/
+  padding:2rem;
+  position:relative;
+  background-image: url('./images/apartmen2.webp');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index:0;
+  position: relative;
+}
+/*.intro p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}*/
+.intro button{
+  background-color:var(--footer-bg);
+  color:var(--primary-bg);
+  padding:1em;
+}
+
+.intro button:hover{
+  padding:1em;
+  color:var(--seconday-font-color);
+  background-color: white;
+  border: 1px solid var(--seconday-font-color);
+  font-weight: 600;
+}
+/*========================================+*/
+.contact{
+  text-align:center;
+  height:auto;
+  padding-top:2rem;
+}
+.about{
+  text-align:center;
+  padding-top:2rem;
+  height:auto;
+}
+.about{
+ width:55%;
+ margin-left:2%;
+ margin-top:-3%;
+ /*border:1px dashed purple;*/
+ position: relative;
+ z-index: 1;
+ background-color: var(--primary-bg);
+ padding:2rem;
+}
+/*===============Properties====================*/
+.property{
+  /*border:2px dashed plum;*/
+  padding:2em;
+  min-height:auto;
+}
+.property img{
+width:100%;
+height:100%;
+border-radius:2px;
+position: relative;
+}
+.displayContainer{
+  /*border:peru dotted 3px;*/
+  display:flex;
+  padding: 1em;
+}
+.imageContainer{
+  /*border:2px dotted turquoise;*/
+  margin-right:0.6em;
+  width:50%;
+  position:relative;
+}
+.imageContainer:hover .overlayText {
+  opacity: 1;
+  visibility: visible;
+  /*border:2px dotted orangered;*/
+}
+
+.overlayText{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  background-color:rgba(246, 169, 69, 0.856);
+  color: white;
+  padding: 2em;
+  text-align: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s, visibility 0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.OLTextButton {
+  margin-bottom: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.overlayText button{
+  padding:1em;
+  color:var(--primary-bg);
+  background-color:var(--footer-bg);
+  margin-top:0.9em;
+}
+.overlayText button:hover{
+  color:var(--seconday-font-color);
+  background-color: white;
+  border: 1px solid var(--seconday-font-color);
+  font-weight: 600;
+}
+/*================================================*/
+
+/*=======================Contact===================*/
+.contact{
+  z-index:1;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align:center;
+  justify-content:center;
+  min-height:auto;
+
+}
+/*.contactinfo{
+  display:flex;
+  padding:1em;
+  text-align:center;
+  align-items:center;
+  justify-content: center;
+ position: relative;
+  z-index:1;
+}
+.contactInfoBlock{
+  margin:0.6em;
+  width:20%;
+  height: 70px;
+  position:relative;
+}
+.contactInfoBlock p{
+  display:flex;
+  flex-direction: column;
+}
+.contactInfoBlock svg{
+padding-bottom:0.5em;
+}*/
+.formStyle{
+/*border:2px dashed red;*/
+Background-color:var(--primary-bg);
+border-radius:2px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.365), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.formStyle form{
+  display:grid;
+  gap:0.8em;
+  align-items:center;
+  justify-content: center;
+  text-align:center;
+}
+
+.formStyle form button{
+ background-color: var(--footer-bg);
+ color:var(--footer-font-color);
+ padding:10px;
+ width:50%;
+}
+
+.formStyle form button:hover{
+  color:var(--seconday-font-color);
+  background-color: white;
+  border: 1px solid var(--seconday-font-color);
+  font-weight: 600;
+ }
+ 
+ .formStyle input{
+  border: none;
+  border-bottom:1px solid black;
+  width:110%;
+ }
+ .formStyle input:hover{
+  border-bottom:1px solid var(--seconday-font-color);
+ }
+ .error{
+  color:red;
+ }
+ .contactInfoBlock p:hover{
+  color:var(--seconday-font-color);
+ }
+/*================================================*/
+
+/*===================Footer=======================*/
+.footer{
+  background-color: var(--footer-bg);
+  color:var(--footer-font-color);
+  z-index:1;
+  padding-bottom:1em;
+}
+.footer ul{
+  display:flex;
+  flex-direction: column;
+}
+.footer li{
+padding:0.2em;
+}
+.footer a{
+  color:var(--footer-font-color);
+}
+.footer a:hover{
+  color:var(--seconday-font-color);
+}
+/*==================Heading font/title============*/
+.sectionTitles{
+  font-size: 30px;
+  padding-bottom:0.6em;
+}
+.sectionTitles:hover{
+  color:var(--seconday-font-color);
+}
+.logotitle{
+  font-size: 35px;
+  margin:0;
+}
+/*===============================================*/
+@media screen and (max-width: 1280px) and (max-height: 1752px) {
+  /* CSS rules here */
+  .body{
+    border: 2px solid red !important;
+  }
+  .displayContainer{
+    /*border:peru dotted 3px;*/
+    display:flex;
+    flex-direction: column;
+    padding: 1em;
+    justify-content:center;
+    align-items:center;
+  }
+  .contactinfo{
+    display:flex;
+    flex-direction: column;
+    /*border:pink 3px dotted;*/
+    padding:1em;
+    text-align:center;
+    align-items:center;
+    justify-content: center;
+    position: relative;
+    z-index:1;
+  }
+  .contactInfoBlock p{
+  display:flex;
+  flex-direction: column;
+}
+.contactInfoBlock svg{
+padding-bottom:0.5em;
+}
+}
+@media (max-width:576px){
+  .body{
+    border: 4px dashed green;
+  }
+}
