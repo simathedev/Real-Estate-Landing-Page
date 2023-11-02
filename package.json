@@ -1,6 +1,6 @@
 {
   "name": "RealEstate-Landing-Page",
-  "homepage": "https://simathedev.github.io/Real-Estate-Landing-Page",
+  "homepage": "https://simathedev.github.io/Real-Estate-Landing-Page/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -19,8 +19,9 @@
     "yup": "^1.0.2"
   },
   "scripts": {
-    "publish": "gh-pages -d src",
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
