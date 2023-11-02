@@ -167,7 +167,6 @@ position: relative;
   align-items: center;
 }
 .overlayText button{
-  padding:1em;
   color:var(--primary-bg);
   background-color:var(--footer-bg);
   margin-top:0.9em;

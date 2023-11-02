@@ -26,7 +26,7 @@ export default function Navbar() {
     setShowMenu(!showMenu);
   };
   return (
-    <div className="navbar">
+    <div className="navbar pr-[4%]">
     <ul>
         <li><a href="">Home</a> </li>
         <li><a href="">About Us</a></li>
