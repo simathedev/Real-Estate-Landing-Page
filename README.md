@@ -13,4 +13,4 @@ This project is a single-page application (SPA) designed to showcase properties 
 * Dynamic form feature powered by YUP and react-hook-form , featuring robust validation for an enhanced user experience and to ensure the correct data is collected from user.
 * A feature-rich footer, including navigation links.
 
-
+  ![realestate1](https://github.com/simathedev/Real-Estate-Landing-Page/assets/113444290/387d57f9-9f58-4b9a-b25a-008ceebbdf99)
