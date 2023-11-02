@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Real-Estate-Landing-Page/static/css/main.7003a8ab.css",
-    "main.js": "/Real-Estate-Landing-Page/static/js/main.4df13d46.js",
+    "main.css": "/Real-Estate-Landing-Page/static/css/main.e6d94c9b.css",
+    "main.js": "/Real-Estate-Landing-Page/static/js/main.a72d0dc3.js",
     "static/media/apart2.png": "/Real-Estate-Landing-Page/static/media/apart2.383d76fdaed5bf81c985.png",
     "static/media/apartmen2.webp": "/Real-Estate-Landing-Page/static/media/apartmen2.fd8d85ba52bc21bdd9b5.webp",
     "static/media/apartment_building.jfif": "/Real-Estate-Landing-Page/static/media/apartment_building.cf47535ac0f1d9a7404a.jfif",
     "static/media/apartment.jfif": "/Real-Estate-Landing-Page/static/media/apartment.c6df0df1b59cfad91ec2.jfif",
     "static/media/logo.png": "/Real-Estate-Landing-Page/static/media/logo.a8f68982daa1121a7ba9.png",
     "index.html": "/Real-Estate-Landing-Page/index.html",
-    "main.7003a8ab.css.map": "/Real-Estate-Landing-Page/static/css/main.7003a8ab.css.map",
-    "main.4df13d46.js.map": "/Real-Estate-Landing-Page/static/js/main.4df13d46.js.map"
+    "main.e6d94c9b.css.map": "/Real-Estate-Landing-Page/static/css/main.e6d94c9b.css.map",
+    "main.a72d0dc3.js.map": "/Real-Estate-Landing-Page/static/js/main.a72d0dc3.js.map"
   },
   "entrypoints": [
-    "static/css/main.7003a8ab.css",
-    "static/js/main.4df13d46.js"
+    "static/css/main.e6d94c9b.css",
+    "static/js/main.a72d0dc3.js"
   ]
 }
