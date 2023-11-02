@@ -1,6 +1,7 @@
 # Real Estate Landing Page
 
-This is one of the earliest projects I've createad while learning react.
+This is one of the earliest projects I've createad while learning React.
+This project is a single-page application (SPA) designed to showcase properties from a real estate agency. It incorporates modern web development technologies and follows best practices for user interface (UI) design. As a Developer, I aimed to develop practical skills while crafting a visually appealing and interactive website.
 
 ## Tools used:
 ### User Interface(UI):
